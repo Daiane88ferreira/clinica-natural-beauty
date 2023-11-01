@@ -1,0 +1,360 @@
+/* Menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe4c4;
+}
+
+li {
+  float: left;
+  font-weight: bold;
+}
+
+li a {
+  display: block;
+  color: #f08080;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+center {
+  background-color: bisque;
+  margin: 2px;
+  padding: 0%;
+}
+
+a {
+  text-decoration: nome;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Tipos de tratamentos  */
+
+.cards-container div {
+  display: inline-block;
+}
+.wrap-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+}
+.services {
+  max-width: 1170px;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  /* padding: 2rem 0; */
+}
+.title-cards {
+  text-align: center;
+  width: 100%;
+  margin-left: -50px;
+}
+@media (max-width: 425px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.9rem;
+  }
+  .rolamento {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 425px) {
+    .rolamento {
+      display: none;
+    }
+  }
+}
+.rolamento-container {
+  position: absolute;
+  top: -15em;
+  display: flex;
+  align-items: center;
+}
+
+.center-center {
+  text-align: center;
+}
+
+.rolamento p {
+  font-size: 1.3em;
+  color: #fff;
+}
+.rolamento .scroll {
+  margin: 0 1.3em;
+}
+.rolamento .scroll svg {
+  height: 40px;
+  width: 40px;
+  fill: #fff;
+}
+
+/* tipos de tratamento */
+.services {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+@media (max-width: 425px) {
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.9rem;
+  }
+}
+.services h2 {
+  font-size: 2.5em;
+  color: #2d2748;
+  text-align: center;
+  margin-bottom: 0.6em;
+  margin-bottom: 1.5em;
+}
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.services-content-card {
+  width: 285px;
+  height: 320px;
+  border: 1px solid #96989a;
+  border-radius: 8px;
+  margin-right: 5em;
+  margin-bottom: 6em;
+  text-align: center;
+  transition: 0.4s;
+  overflow: hidden;
+  cursor: pointer;
+}
+@media (max-width: 425px) {
+  .services-content-card {
+    margin: 1em 0;
+  }
+}
+.services-content-card:hover {
+  border-radius: 8px;
+  box-shadow: 0 1px 10px #96989a;
+}
+.services-content-card img {
+  width: 100%;
+  max-height: 300px;
+}
+.services-content-card h3,
+.services-content-card p {
+  margin: 0 1em;
+}
+.services-content-card h3 {
+  font-size: 1.5em;
+}
+.services-content-card p {
+  font-size: 1.2em;
+}
+.ajusteCarrossel {
+  margin-left: 10%;
+}
+
+.btn-aceitar {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: blue;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  padding: 0.6em 2em;
+  color: #fff;
+  transition: 0.4s;
+  background-color: #1cbf76;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+/* Agendamento */
+.agendamento {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: #ffe4c4;
+}
+.agendamento h4,
+.agendamento h1 {
+  color: #2d2748;
+  text-align: center;
+  margin-bottom: 0.6em;
+}
+@media (max-width: 425px) {
+  .agendamento h4,
+  .agendamento h1 {
+    margin: 0 1em;
+  }
+}
+.agendamento h4 {
+  margin-top: 3rem;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+.agendamento h1 {
+  font-size: 2.7em;
+}
+.agendamento-container {
+  padding-top: 2.2em;
+}
+@media (max-width: 425px) {
+  .agendamento-container {
+    margin: 0 1em;
+  }
+}
+.agendamento-container-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.agendamento-container-consulta {
+  display: flex;
+  justify-content: center;
+  margin: 3em 0;
+}
+@media (max-width: 425px) {
+  .agendamento-container-consulta {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.agendamento-container-consulta-text {
+  margin-right: 4em;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 425px) {
+  .agendamento-container-consulta-text {
+    margin: 0 0;
+  }
+}
+.agendamento-container-consulta-text #texto,
+.agendamento-container-consulta-text #data {
+  font-size: 2em;
+  /* text-align: center; */
+  color: #2d2748;
+  font-weight: 400;
+}
+.agendamento-container-consulta-text #data {
+  font-weight: 250;
+}
+@media (max-width: 425px) {
+  .agendamento-container-consulta .data {
+    margin-top: 1em;
+  }
+}
+.agendamento-container-consulta #data-consulta {
+  width: 180px;
+  height: 160px;
+  padding: 0 20px;
+  border: 2px solid #2d2748;
+  border-radius: 20px;
+}
+
+.agendamento-text {
+  width: 48%;
+  padding: 1em 0.5em;
+  border: 2px solid #777288;
+  border-radius: 10px;
+  margin: 0.7em 0.4em;
+  font-size: 1.2em;
+}
+@media (max-width: 425px) {
+  .agendamento-text {
+    width: 100%;
+  }
+}
+
+/* footer */
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5em;
+}
+.btn #btn-submit {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+  color: blue;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  padding: 0.6em 2em;
+  color: #fff;
+  transition: 0.4s;
+  background-color: #1cbf76;
+  width: 18rem;
+}
+.btn #btn-submit:hover {
+  background-color: #0b9e5c;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1,
+.browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2,
+p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+contact-title {
+  margin: 58px 0 48px 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #00442b;
+}
+
+/* .wrap-carousel {
+  width: 80%;
+  margin: 0 auto;
+ 
+} */
